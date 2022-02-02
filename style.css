@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 section {
   position: relative;
   width: 100%;
@@ -12,6 +13,7 @@ section {
   align-items: center;
   min-height: 100vh;
 }
+
 section header {
   position: absolute;
   top: 0;
@@ -20,25 +22,30 @@ section header {
   justify-content: flex-end;
   margin-right: 40px;
 }
+
 section header ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 section header ul li {
   list-style: none;
   margin-left: 20px;
 }
+
 section header ul li a {
   color: #111;
   text-decoration: none;
   font-size: 13px;
 }
+
 section header ul a:hover {
   color: #111;
   text-decoration: underline;
   font-size: 13px;
 }
+
 section header ul li button {
   background: #4584ef;
   border: none;
@@ -50,6 +57,7 @@ section header ul li button {
   border-radius: 3px;
   cursor: pointer;
 }
+
 section .main {
   width: 680px;
   display: flex;
@@ -57,11 +65,13 @@ section .main {
   justify-content: center;
   align-items: center;
 }
+
 section .main .searchbox {
   position: relative;
   width: 100%;
   margin-top: 20px;
 }
+
 section .main .searchbox .search {
   width: 98%;
   padding: 13px;
@@ -71,6 +81,16 @@ section .main .searchbox .search {
   outline: none;
   font-size: 16px;
 }
+
+.search:hover {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 2px rgba(236, 224, 224, 0.493),
+    0 0 2px rgba(236, 224, 224, 0.493), 0 0 3px rgba(236, 224, 224, 0.493),
+    0 0 4px rgba(236, 224, 224, 0.493), 0 0 5px rgba(236, 224, 224, 0.493),
+    0 0 4px rgba(236, 224, 224, 0.493), 0 0 5px rgba(236, 224, 224, 0.493);
+}
+
 section .main .searchbox .icons {
   position: absolute;
   top: 0;
@@ -81,9 +101,11 @@ section .main .searchbox .icons {
   align-items: center;
   pointer-events: none;
 }
+
 section .main .buttons {
   margin-top: 20px;
 }
+
 section .main .buttons button {
   margin: 0 5px;
   padding: 12px 20px;
@@ -95,18 +117,23 @@ section .main .buttons button {
   border-radius: 5px;
   outline: none;
 }
+
 section .main .buttons button:hover {
   border: 1px solid #ccc;
 }
+
 section .main .lang {
   margin-top: 20px;
 }
+
 section .main .lang a {
   text-decoration: none;
 }
+
 section .main .lang a:hover {
   text-decoration: underline;
 }
+
 section .footer {
   position: absolute;
   bottom: 0;
@@ -114,23 +141,28 @@ section .footer {
   width: 100%;
   background: #f2f2f2;
 }
+
 section .footer .row {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
+
 section .footer .row ul {
   display: flex;
 }
+
 section .footer .row ul li {
   list-style: none;
 }
+
 section .footer .row ul li a {
   text-decoration: none;
   font-size: 14px;
   color: #5f6368;
   margin-right: 25px;
 }
+
 section .footer .row ul li a:hover {
   text-decoration: underline;
   font-size: 14px;
@@ -145,7 +177,7 @@ section .footer .row ul li a:hover {
 /*Tablet View*/
 @media (min-width: 769px) and (max-width: 1023px) {
   section header ul li button {
-    background-color: tomato;
+    background-color: #4584ef;
   }
 }
 
