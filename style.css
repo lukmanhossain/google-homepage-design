@@ -51,7 +51,7 @@ section header ul li button {
   border: none;
   outline: none;
   padding: 8px 14px;
-  color: #fff;
+  color: #ccc;
   font-size: 14px;
   font-weight: bold;
   border-radius: 3px;
@@ -146,6 +146,13 @@ section .footer .row {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.bd {
+  font-size: 15px;
+  font-weight: 100;
+  color: #5f6368;
+  margin-left: 27px;
 }
 
 section .footer .row ul {
