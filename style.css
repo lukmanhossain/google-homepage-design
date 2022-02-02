@@ -34,6 +34,11 @@ section header ul li a {
   text-decoration: none;
   font-size: 13px;
 }
+section header ul a:hover {
+  color: #111;
+  text-decoration: underline;
+  font-size: 13px;
+}
 section header ul li button {
   background: #4584ef;
   border: none;
@@ -71,7 +76,7 @@ section .main .searchbox .icons {
   top: 0;
   width: 100%;
   display: flex;
-  padding: 12px 30px;
+  padding: 12px 25px;
   justify-content: space-between;
   align-items: center;
   pointer-events: none;
@@ -87,6 +92,7 @@ section .main .buttons button {
   border: none;
   cursor: pointer;
   border: 1px solid transparent;
+  border-radius: 5px;
   outline: none;
 }
 section .main .buttons button:hover {
@@ -97,6 +103,9 @@ section .main .lang {
 }
 section .main .lang a {
   text-decoration: none;
+}
+section .main .lang a:hover {
+  text-decoration: underline;
 }
 section .footer {
   position: absolute;
@@ -118,6 +127,12 @@ section .footer .row ul li {
 }
 section .footer .row ul li a {
   text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 25px;
+}
+section .footer .row ul li a:hover {
+  text-decoration: underline;
   font-size: 14px;
   color: #5f6368;
   margin-right: 25px;
@@ -146,6 +161,6 @@ section .footer .row ul li a {
     display: block;
   }
   section header ul li button {
-    background-color: blue;
+    background-color: #4584ef;
   }
 }
